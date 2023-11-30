@@ -38,7 +38,7 @@ def main() -> None:
         # Multi-class classification (mini-MIAS dataset)
         if config.dataset == "mini-MIAS":
             # Import entire dataset.
-            images, labels = import_minimias_dataset(data_dir="/content/Breast-Cancer-Detection-Mammogram-Deep-Learning-Publication/data/{}/images_processed".format(config.dataset),
+            images, labels = import_minimias_dataset(data_dir="/content/Breast-Cancer-Detection-Mammogram-Deep-Learning-Publication/data/mini-MIAS/images_processed".format(config.dataset),
                                                      label_encoder=l_e)
 
             # Split dataset into training/test/validation sets (80/20% split).
