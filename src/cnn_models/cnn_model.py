@@ -240,7 +240,7 @@ class CnnModel:
 
         # Compare results with other similar papers' result.
         with open(
-                'data_visualisation/other_paper_results.json') as config_file:  # Load other papers' results from JSON.
+                '/content/Breast-Cancer-Detection-Mammogram-Deep-Learning-Publication/src/data_visualisation/other_paper_results.json') as config_file:  # Load other papers' results from JSON.
             data = json.load(config_file)
 
         dataset_key = config.dataset
@@ -419,7 +419,7 @@ def test_model_evaluation(y_true: list, predictions, label_encoder: LabelEncoder
 
     # Compare results with other similar papers' result.
     with open(
-            'data_visualisation/other_paper_results.json') as config_file:  # Load other papers' results from JSON.
+            '/content/Breast-Cancer-Detection-Mammogram-Deep-Learning-Publication/src/data_visualisation/other_paper_results.json') as config_file:  # Load other papers' results from JSON.
         data = json.load(config_file)
 
     dataset_key = config.dataset
