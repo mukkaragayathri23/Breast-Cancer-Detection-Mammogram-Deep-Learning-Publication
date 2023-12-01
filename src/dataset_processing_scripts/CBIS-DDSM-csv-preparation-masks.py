@@ -23,8 +23,8 @@ def main() -> None:
     
     :return: None
     """
-    csv_root = '/data/CBIS-DDSM/manifest-ZkhPvrLo5216730872708713142'               # original csv folder (change as needed)
-    img_root = '/data/CBIS-DDSM/manifest-ZkhPvrLo5216730872708713142/CBIS-DDSM'     # dataset folder (change as needed)
+    csv_root = '/content/Breast-Cancer-Detection-Mammogram-Deep-Learning-Publication/data/CBIS-DDSM/manifest-ZkhPvrLo5216730872708713142'               # original csv folder (change as needed)
+    img_root = '/content/Breast-Cancer-Detection-Mammogram-Deep-Learning-Publication/data/CBIS-DDSM/manifest-ZkhPvrLo5216730872708713142/CBIS-DDSM'     # dataset folder (change as needed)
     csv_output_path = '/content/Breast-Cancer-Detection-Mammogram-Deep-Learning-Publication/data/CBIS-DDSM-mask'                                      # csv output folder (change as needed)
 
     folders = os.listdir(img_root)
